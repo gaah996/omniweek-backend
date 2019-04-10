@@ -15,7 +15,7 @@ io.on('connection', socket => {
     })
 });
 
-mongoose.connect('mongodb+srv://gabriel:gabriel@cluster0-ndbce.mongodb.net/nodeapi?retryWrites=true', {
+mongoose.connect('mongodb+srv://gabriel:gabriel@cluster0-ndbce.mongodb.net/boxapi?retryWrites=true', {
     useNewUrlParser: true
 });
 
